@@ -1,0 +1,15 @@
+{
+  "Const Function Export Default": {
+    "prefix": "newp",
+    "body": [
+      "const $TM_FILENAME_BASE = () => {",
+      "\treturn (",
+      "\t\t\t<div>$TM_FILENAME_BASE</div>",
+      "\t);",
+      "};",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "NextJS Const Function Export Default"
+  }
+}

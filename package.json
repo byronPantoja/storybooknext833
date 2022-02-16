@@ -1,0 +1,27 @@
+{
+  "name": "storybooknext833",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006 -c .storybook"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.3",
+    "@heroicons/react": "^1.0.5",
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^3.0.23"
+  },
+  "devDependencies": {
+    "@storybook/react": "^6.4.19",
+    "babel-core": "^6.26.3",
+    "eslint": "^8.9.0",
+    "eslint-config-next": "^12.0.10"
+  }
+}
